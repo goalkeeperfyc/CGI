@@ -17,9 +17,9 @@ next_date = datetime.datetime.strftime(next_date_dt, '%Y-%m-%d')
 search_sql = ("select * from user_info where create_time >='"
               + re_date + "' and create_time <='" + next_date + "'")
 
-host='172.21.0.17'
-user='root'
-passwd='goalkeeper@1'
+host='host'
+user='user'
+passwd='passed'
 database_name='crawler_opgg'
 port=3306
 
